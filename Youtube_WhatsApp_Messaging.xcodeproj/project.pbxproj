@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2624F3972C4A24A600CC615C /* Youtube_WhatsApp_MessagingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3962C4A24A600CC615C /* Youtube_WhatsApp_MessagingApp.swift */; };
+		2624F3992C4A24A600CC615C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3982C4A24A600CC615C /* ContentView.swift */; };
+		2624F39B2C4A24A800CC615C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2624F39A2C4A24A800CC615C /* Assets.xcassets */; };
+		2624F39E2C4A24A800CC615C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2624F39D2C4A24A800CC615C /* Preview Assets.xcassets */; };
+		2624F3A72C4A258E00CC615C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3A62C4A258E00CC615C /* Colors.swift */; };
+		2624F3AC2C4A42E000CC615C /* UserLinkedInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3AB2C4A42E000CC615C /* UserLinkedInResponse.swift */; };
+		2624F3AE2C4A42F400CC615C /* UserLinkedInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3AD2C4A42F400CC615C /* UserLinkedInData.swift */; };
+		2624F3B12C4A435400CC615C /* MessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3B02C4A435400CC615C /* MessageResponse.swift */; };
+		2624F3B32C4A436800CC615C /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3B22C4A436800CC615C /* MessageData.swift */; };
+		2624F3B52C4A438F00CC615C /* MessageDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3B42C4A438F00CC615C /* MessageDetailResponse.swift */; };
+		2624F3B72C4A43A000CC615C /* MessageDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3B62C4A43A000CC615C /* MessageDetailData.swift */; };
+		2624F3BA2C4A441000CC615C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2624F3B92C4A441000CC615C /* Kingfisher */; };
+		2624F3BC2C4A441C00CC615C /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3BB2C4A441C00CC615C /* ProfileImageView.swift */; };
+		2624F3BE2C4A445E00CC615C /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3BD2C4A445E00CC615C /* Line.swift */; };
+		2624F3C52C4A4C7900CC615C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3C42C4A4C7900CC615C /* MessageView.swift */; };
+		2624F3C72C4A564E00CC615C /* MessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624F3C62C4A564E00CC615C /* MessageDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2624F3932C4A24A600CC615C /* Youtube_WhatsApp_Messaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube_WhatsApp_Messaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2624F3962C4A24A600CC615C /* Youtube_WhatsApp_MessagingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_WhatsApp_MessagingApp.swift; sourceTree = "<group>"; };
+		2624F3982C4A24A600CC615C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2624F39A2C4A24A800CC615C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2624F39D2C4A24A800CC615C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2624F3A62C4A258E00CC615C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2624F3AB2C4A42E000CC615C /* UserLinkedInResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLinkedInResponse.swift; sourceTree = "<group>"; };
+		2624F3AD2C4A42F400CC615C /* UserLinkedInData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLinkedInData.swift; sourceTree = "<group>"; };
+		2624F3B02C4A435400CC615C /* MessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageResponse.swift; sourceTree = "<group>"; };
+		2624F3B22C4A436800CC615C /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		2624F3B42C4A438F00CC615C /* MessageDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailResponse.swift; sourceTree = "<group>"; };
+		2624F3B62C4A43A000CC615C /* MessageDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailData.swift; sourceTree = "<group>"; };
+		2624F3BB2C4A441C00CC615C /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		2624F3BD2C4A445E00CC615C /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		2624F3C42C4A4C7900CC615C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		2624F3C62C4A564E00CC615C /* MessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2624F3902C4A24A600CC615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624F3BA2C4A441000CC615C /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2624F38A2C4A24A500CC615C = {
+			isa = PBXGroup;
+			children = (
+				2624F3952C4A24A600CC615C /* Youtube_WhatsApp_Messaging */,
+				2624F3942C4A24A600CC615C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2624F3942C4A24A600CC615C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3932C4A24A600CC615C /* Youtube_WhatsApp_Messaging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2624F3952C4A24A600CC615C /* Youtube_WhatsApp_Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3A92C4A262000CC615C /* Components */,
+				2624F3A82C4A261C00CC615C /* Models */,
+				2624F3A52C4A258600CC615C /* Themes */,
+				2624F3A42C4A252700CC615C /* Pages */,
+				2624F3962C4A24A600CC615C /* Youtube_WhatsApp_MessagingApp.swift */,
+				2624F3982C4A24A600CC615C /* ContentView.swift */,
+				2624F39A2C4A24A800CC615C /* Assets.xcassets */,
+				2624F39C2C4A24A800CC615C /* Preview Content */,
+			);
+			path = Youtube_WhatsApp_Messaging;
+			sourceTree = "<group>";
+		};
+		2624F39C2C4A24A800CC615C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2624F39D2C4A24A800CC615C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2624F3A42C4A252700CC615C /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3C32C4A4C6E00CC615C /* Message */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		2624F3A52C4A258600CC615C /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3A62C4A258E00CC615C /* Colors.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		2624F3A82C4A261C00CC615C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3AF2C4A433800CC615C /* MessageModel */,
+				2624F3AA2C4A42CA00CC615C /* UserModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2624F3A92C4A262000CC615C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3BB2C4A441C00CC615C /* ProfileImageView.swift */,
+				2624F3BD2C4A445E00CC615C /* Line.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2624F3AA2C4A42CA00CC615C /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3AB2C4A42E000CC615C /* UserLinkedInResponse.swift */,
+				2624F3AD2C4A42F400CC615C /* UserLinkedInData.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		2624F3AF2C4A433800CC615C /* MessageModel */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3B02C4A435400CC615C /* MessageResponse.swift */,
+				2624F3B22C4A436800CC615C /* MessageData.swift */,
+				2624F3B42C4A438F00CC615C /* MessageDetailResponse.swift */,
+				2624F3B62C4A43A000CC615C /* MessageDetailData.swift */,
+			);
+			path = MessageModel;
+			sourceTree = "<group>";
+		};
+		2624F3C32C4A4C6E00CC615C /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2624F3C42C4A4C7900CC615C /* MessageView.swift */,
+				2624F3C62C4A564E00CC615C /* MessageDetailView.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2624F3922C4A24A600CC615C /* Youtube_WhatsApp_Messaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2624F3A12C4A24A800CC615C /* Build configuration list for PBXNativeTarget "Youtube_WhatsApp_Messaging" */;
+			buildPhases = (
+				2624F38F2C4A24A600CC615C /* Sources */,
+				2624F3902C4A24A600CC615C /* Frameworks */,
+				2624F3912C4A24A600CC615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youtube_WhatsApp_Messaging;
+			packageProductDependencies = (
+				2624F3B92C4A441000CC615C /* Kingfisher */,
+			);
+			productName = Youtube_WhatsApp_Messaging;
+			productReference = 2624F3932C4A24A600CC615C /* Youtube_WhatsApp_Messaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2624F38B2C4A24A500CC615C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2624F3922C4A24A600CC615C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2624F38E2C4A24A500CC615C /* Build configuration list for PBXProject "Youtube_WhatsApp_Messaging" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2624F38A2C4A24A500CC615C;
+			packageReferences = (
+				2624F3B82C4A441000CC615C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 2624F3942C4A24A600CC615C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2624F3922C4A24A600CC615C /* Youtube_WhatsApp_Messaging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2624F3912C4A24A600CC615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624F39E2C4A24A800CC615C /* Preview Assets.xcassets in Resources */,
+				2624F39B2C4A24A800CC615C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2624F38F2C4A24A600CC615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624F3C52C4A4C7900CC615C /* MessageView.swift in Sources */,
+				2624F3992C4A24A600CC615C /* ContentView.swift in Sources */,
+				2624F3AC2C4A42E000CC615C /* UserLinkedInResponse.swift in Sources */,
+				2624F3BC2C4A441C00CC615C /* ProfileImageView.swift in Sources */,
+				2624F3B32C4A436800CC615C /* MessageData.swift in Sources */,
+				2624F3A72C4A258E00CC615C /* Colors.swift in Sources */,
+				2624F3AE2C4A42F400CC615C /* UserLinkedInData.swift in Sources */,
+				2624F3B52C4A438F00CC615C /* MessageDetailResponse.swift in Sources */,
+				2624F3B12C4A435400CC615C /* MessageResponse.swift in Sources */,
+				2624F3B72C4A43A000CC615C /* MessageDetailData.swift in Sources */,
+				2624F3BE2C4A445E00CC615C /* Line.swift in Sources */,
+				2624F3972C4A24A600CC615C /* Youtube_WhatsApp_MessagingApp.swift in Sources */,
+				2624F3C72C4A564E00CC615C /* MessageDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2624F39F2C4A24A800CC615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2624F3A02C4A24A800CC615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2624F3A22C4A24A800CC615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Youtube_WhatsApp_Messaging/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sopheamen.app.Youtube-WhatsApp-Messaging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2624F3A32C4A24A800CC615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Youtube_WhatsApp_Messaging/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sopheamen.app.Youtube-WhatsApp-Messaging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2624F38E2C4A24A500CC615C /* Build configuration list for PBXProject "Youtube_WhatsApp_Messaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2624F39F2C4A24A800CC615C /* Debug */,
+				2624F3A02C4A24A800CC615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2624F3A12C4A24A800CC615C /* Build configuration list for PBXNativeTarget "Youtube_WhatsApp_Messaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2624F3A22C4A24A800CC615C /* Debug */,
+				2624F3A32C4A24A800CC615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2624F3B82C4A441000CC615C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2624F3B92C4A441000CC615C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2624F3B82C4A441000CC615C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2624F38B2C4A24A500CC615C /* Project object */;
+}
